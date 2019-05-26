@@ -1,0 +1,27 @@
+.form{
+	padding: 1.6rem;
+	display: flex;
+	background-color: #5c627b;
+	@media (max-width: 560px) {
+	    flex-wrap: wrap;
+	}
+}
+.form__input{
+	flex-grow: 1;
+	margin-right: $s-size;
+	color: #a5afd7;
+	border: none;
+    background: #333745;
+    border-bottom: .3rem solid #1d2028;
+    padding-left: $s-size;
+    @media (max-width: 560px) {
+	    margin: 0;
+	    height: 40px;
+	}
+}
+.btnAdd{
+	@media (max-width: 560px) {
+	    flex-basis: 100%;
+	    margin-top: 12px;
+	}
+}

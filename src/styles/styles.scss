@@ -1,0 +1,13 @@
+@import "bace/_bootstrap.css";
+@import "bace/_variables.scss";
+@import "../components/Header/_header.scss";
+@import "../components/Options/_options.scss";
+@import "../components/List/_list.scss";
+@import "../components/Input/_input.scss";
+@import "../components/SearchInput/_searchInput.scss";
+
+body{
+	background-color: $dark_blue;
+	font-size: 1rem;
+}
+

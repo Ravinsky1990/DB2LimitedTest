@@ -1,0 +1,15 @@
+.searchInput{
+	flex-grow: 1;
+	margin-right: $m-size;
+	margin-left: $m-size;
+}
+.searchInput__input{
+	display: inline-block;
+	width: 100%;
+	border: none;
+	color:#a5afd7;
+	border-bottom: 1px solid #a5afd7;
+	background-color: transparent;
+	padding:0px 10px;
+	outline: none;
+}

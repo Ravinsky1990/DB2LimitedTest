@@ -1,0 +1,25 @@
+.options{
+	background-color:#3c4251;
+	display: flex;
+	padding: 1.6rem;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: $l-size;
+	@media (max-width: 560px) {
+	    flex-wrap: wrap;
+	}
+}
+
+.options__title{
+	color: $off-white;
+	margin: 0px;
+	@media (max-width: 560px) {
+	    display: none;
+	}
+}
+.optionBtn{
+	@media (max-width: 560px) {
+	    flex-basis: 100%;
+	    margin-top: 14px;
+	}
+}

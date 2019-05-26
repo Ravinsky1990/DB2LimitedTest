@@ -1,0 +1,35 @@
+.list{
+	background-color: #5c627b;
+	padding: $m-size;
+}
+.list__error{
+	color: #a5afd7;
+	text-align: center;
+}
+
+.listItem{
+	padding: $m-size;
+	display: flex;
+	justify-content: space-between;
+	@media (max-width: 560px) {
+		flex-wrap: wrap;
+	}
+}
+.list__button{
+	margin-right: $s-size;
+}
+.listitem__content{
+	color:white;
+	@media (max-width: 560px) {
+		flex-basis: 100%
+	}
+}
+//
+.listItem:nth-of-type(even){
+	background-color: #3c4251;
+}
+.listItem__btnWrap{
+	@media (max-width: 560px) {
+		flex-basis: 100%
+	}	
+}
