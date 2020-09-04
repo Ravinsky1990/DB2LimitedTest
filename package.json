@@ -22,7 +22,7 @@
     "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",
     "live-server": "^1.2.0",
-    "node-sass": "4.5.3",
+    "node-sass": "4.13.1",
     "normalize.css": "7.0.0",
     "react": "next",
     "react-dom": "next",
